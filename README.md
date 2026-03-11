@@ -1,4 +1,4 @@
-# 🐚 Custom Linux Shell (Mini-Bash)
+# Custom Linux Shell (Mini-Bash)
 
 ## Overview
 This project is a custom command-line interface designed to emulate the core functionality of Unix shells like `bash` or `zsh`. Written entirely in C, it bypasses high-level standard library abstractions (like `system()`) to interface directly with the Linux kernel via POSIX system calls.
@@ -26,3 +26,4 @@ gcc -Wall -Wextra src/shell.c src/parser.c -o myshell
 
 # Launch the shell
 ./myshell
+
